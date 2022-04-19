@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,0.865983893557423) 39%, rgba(0,212,255,1) 100%);
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.text{
+    padding: 30px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+.tam{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+.map{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
