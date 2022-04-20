@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,0.865983893557423) 39%, rgba(0,212,255,1) 100%);
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+;
 }
 
 .center {
@@ -29,7 +30,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,0.8659838935
 }
 
 #menu li a:hover{
-    color: grey;
+    color: rgb(128, 128, 128);
 }
 
 .text{
@@ -56,4 +57,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,9,121,0.8659838935
     margin-left: 50px;
     margin-bottom: 50px;
 }
+
+.ml-50 {
+    margin-left: 50px;
+}
+
 

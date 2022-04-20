@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
 
@@ -20,21 +20,24 @@
         <div>
             <form>
         <label for="Nome">Nome:</label><br>
-        <input type="text" id="nome">
+        <input type="text" id="nome" onkeyup="validaNome">
         <div id="txtNome"></div>
         <br>
         <br>
         <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
+        <input type="email" id="email" onkeyup="validaEmail">
         <div id="txtEmail"></div>
         <br>
         <br>
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto=" cols="60" rows="5"></textarea>
+        <textarea name="assunto=" cols="60" rows="5" onkeyup="validaAssunto"></textarea>
         <br>
         <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
     </form>
+
+        
+
 
         </div>
 <div class="ml-50">
@@ -52,5 +55,6 @@
     </p> 
     </footer>
 </div>
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
